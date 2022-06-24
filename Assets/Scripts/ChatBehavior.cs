@@ -21,7 +21,12 @@ public class ChatBehavior : NetworkBehaviour
     
         Canvas c = GetComponentInChildren<Canvas>();
         c.worldCamera = Camera.main;
+
     }
+
+    
+
+    
 
     // Called when a client has exited the server
     [ClientCallback]
